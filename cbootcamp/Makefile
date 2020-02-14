@@ -21,5 +21,6 @@ pointer_arith: pointer_arith.c
 mem_mgmt: mem_mgmt.c
 	$(CC) $(CFLAGS) -o mem_mgmt mem_mgmt.c 
 
+.PHONY: clean
 clean:
-	rm passing_args pointer_arith mem_mgmt structs typedefs casting
+	rm -f passing_args pointer_arith mem_mgmt structs typedefs casting
