@@ -2,3 +2,4 @@
 ._*
 *.log
 tmp/
+.vscode
