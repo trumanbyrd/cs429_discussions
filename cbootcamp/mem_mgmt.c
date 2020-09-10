@@ -58,7 +58,7 @@ int main()
     /*
     for (int j = 0; j < NUM_ARRS; j++)
     {
-        free(arr[i]);
+        free(arr[j]);
     }
     free(arr);
     */
